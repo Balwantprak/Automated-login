@@ -1,0 +1,10 @@
+username,password,expectedResult
+standard_user,secret_sauce,valid
+locked_out_user,secret_sauce,locked
+problem_user,secret_sauce,valid
+performance_glitch_user,secret_sauce,valid
+standard_user,wrong_password,invalid
+invalid_user,secret_sauce,invalid
+,secret_sauce,invalid
+standard_user,,invalid
+,invalid
